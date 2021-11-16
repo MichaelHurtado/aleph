@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>algo-ritmos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8"/>
+  <style>
+    body {
+      scrollbar-base-color: #ffffff;
+      scrollbar-track-color: #cccccc;
+      scrollbar-face-color: #ffffff;
+      scrollbar-highlight-color: #ffffff;
+      scrollbar-3dlight-color: #ffffff;
+      scrollbar-darkshadow-color: #ffffff;
+      scrollbar-shadow-color: #ffffff;
+      scrollbar-arrow-color: #ffffff;
+      background-color: #000;
+    }
+    body,td,th {
+  color: #FFF;
+  font-family: "Courier New", Courier, monospace;
+  width: 100%;
+  font-size:1.3vmax;
+  background: linear-gradient(1deg, #000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000, #000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000,  #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000,#000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #00ff00, #000000, #000000, #000000, #000000,#000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #000000);
+background-size: 1000% 1000%;
+
+-webkit-animation: AnimationName 5s ease infinite;
+-moz-animation: AnimationName 5s ease infinite;
+animation: AnimationName 5s ease infinite;
+
+
+}
+    #logo {
+      font-size: 1.4vmax;
+      animation: subrayado .3s infinite steps(5, end);
+      /* When the animation is finished, start again */
+      animation-iteration-count: infinite;
+    }
+    @-webkit-keyframes subrayado {
+      0% {
+      color: #00ff00; }
+      20% {
+      color: #00ff40; }
+      40% {
+      color:  #000000; }
+      65% {
+      color:  #00ff40; }
+      80% {
+      color:  #00ff00; }
+}
+
+::-moz-selection { /* Code for Firefox */
+color: #ff23be;
+  background: black;
+}
+
+::selection {
+  color: #ff23be;
+    background: black;}
+  </style>
+</head>
+<body bgcolor="#000000"  text="#00FF00" link="#00FF00" vlink="#00FF00" alink="#FFFF00">
+<p>&nbsp;</p>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+  <tbody><tr>
+    <td align="center" valign="middle">
+      <table border="0" cellspacing="0" cellpadding="0" align="center">
+        <tbody><tr>
+          <td>
+            <pre>
+<marquee scrolldelay="25"><i>ALGO-RITMOS</i> <strong>AlGo-RiTmOs</strong> ALGO-ritmos <strong>algo-ritmos</strong> algo-RITMOS </marquee>
+
+                                   <em>"bienvenidos a la muestra del curso"</em>
+
+                                 //(                                         ///             
+                    ////         ///                                         //(             
+                    *//(         ///                                         //(             
+                                 /(/                             ,,          //(             
+                ///////////(     ///     ////////////       ///////////(     //(///(/(////(  
+              ////        (/(/   ///   ,///        ///(   (//(        (/(/   ///(        (///
+             *//*          ((/   ///   ////(///(((/////* .///          //(   //(          //(
+              /(/          (/(   //(   (///////////////  ,//*          ///   //(          ///
+               //(/        (//   ((/    ////      ,      ,//*        ///(    //(          ///
+                 /////((/(/(//   //(      ((////////     ,//////(/////(      (/(          ///
+                                                         ,//*                                
+                                                         ,//*                                
+                                                         ,//*                                
+
+                <a href="">o</a>
+                |
+                |                            
+            <strong id="logo">Valentina</strong>----------+ <a href="https://valentinax14.github.io/pagina_1/Mi%20primera%20web.html">o</a> Mi primera web
+                                |
+                                | <a href="https://valentinax14.github.io/pagina_2/Mi%20segunda%20web.html">o</a> Mi segunda web
+                                | 
+                                | <a href="https://valentinax14.github.io/profundizacion/">o</a> Profundizacion
+                                | 
+                                | <a href="https://valentinax14.github.io/freetime/Free.html">o</a> Free
+                                |
+    +---------------------------+
+    |
+    |
+    |
+    |
+    |
+  <strong id="logo">Iñaki</strong>--------+ <a href="https://inakoide.github.io/nose/">o</a> Nose
+                |
+                | <a href="https://inakoide.github.io/lolo/">o</a> Lolo
+                |
+                | <a href="https://inakoide.github.io/cristiano/">o</a> Cristiano
+                |
+                +-------------------------------------+
+                                                      |
+                                                      |
+                                                      |
+                                                   <strong id="logo">Antonio</strong>-----------+ <a href="https://antogp.github.io/Hey/">o</a> Hey
+                                                                      |
+                                                                      | <a href="https://antogp.github.io/SUS/">o</a> SUS
+                                                                      |
+                                                                      | <a href="https://antogp.github.io/lamandarina/LELO PARALELO.html">o</a> LELO PARALELO
+                                                                      |
+                                      +-------------------------------+
+                                      |
+                                      |
+                                      |
+                                      |
+                                      |
+                             <strong id="logo">Matias Vazquez</strong>-----+ <a href="https://trojwolf.github.io/profr/">o</a> Profr
+                                                 |
+                                                 | <a href="https://trojwolf.github.io/caca/">o</a> Kk
+                                                 |
+                                                 | <a href="https://trojwolf.github.io/3D/index.html">o</a> 3D
+                                                 |
+                                                 +--------------------------------------+
+                                                                                        |
+                                                                                        |
+                                                                                        |
+                                                                                        |
+                                                      Web test <a href="https://profundizacion-web-test.vercel.app/">o</a> +----------------<strong id="logo">Luis Patricio</strong> 
+                                                                 |
+                                                    Javascript <a href="https://profundizacion.nex.sh/luispa-javascript/">o</a> |
+                                                                 |
+                                                            3D <a href="https://profundizacion.nex.sh/luispa/">o</a> |
+                                                                 |
+          +------------------------------------------------------+
+          |
+          |
+          |
+        <strong id="logo">Ella</strong>-----------+ <a href="https://holaaaaaaaaaaaaa.github.io/profu/">o</a> Profu
+                       |
+                       | <a href="https://holaaaaaaaaaaaaa.github.io/prueba/">o</a> Prueba
+                       |
+                       | <a href="https://holaaaaaaaaaaaaa.github.io/Medmud/pagina%20principal.html">o</a> Medmud
+                       |
+                       | <a href="https://holaaaaaaaaaaaaa.github.io/proyecto/pagina%20principal.html">o</a> Proyecto
+                       |
+                       +---------------------+
+                                             |
+                                             |
+                                             |
+                                             |
+                                          <strong id="logo">Thiago</strong>----------+ <a href="https://flunn.github.io/gato/Thiago.html">o</a> Gato
+                                                          |
+                                                          | <a href="https://flunn.github.io/Evee/evee.html">o</a> Evee
+                                                          |
+                          +-------------------------------+
+                          |
+                          |
+                          |
+                          |                                                          
+               <strong id="logo">Mattias Jochamowitz</strong>----------+ <a href="https://wuatiwuati.github.io/todoeldia/index.html">o</a> Todo el día
+                                             |
+                                             | <a href="https://wuatiwuati.github.io/fiumba/">o</a> Fiumba
+                                             |
+                                             +-----------------------------------+
+                                                                                 |
+                                                                                 |
+                                                                                 |
+                                                                                 |
+                                                        Profu <a href="https://domezius.github.io/profu/">o</a> +------------<strong id="logo">Doménico</strong>
+                                                                |
+                                                                |
+                                             +------------------+
+                                             |
+                                             |
+                                             |
+                                             |
+                                           <strong id="logo">Mateo</strong>----------+ <a href="https://manadiaken.github.io/profu/">o</a> Manadiaken              
+                                                           |
+                                                           | <a href="https://manadiaken.github.io/manadiakensisiis/mateo.html">o</a> Manadiakensisiis
+                                                           |
+            +----------------------------------------------+
+            |
+            |
+            |
+         <strong id="logo">Fabián</strong>--------------+ <a href="https://fabianpalomino2021.github.io/MIwebFabian/">o</a> MIweb
+                             |
+                             | 
+                             +-------------------------+
+                                                       |
+                                                       |
+                                                       |
+                                                       |
+                                                    <strong id="logo">Adriano</strong>------> <a href="https://adrianocanale.github.io/fiumba/">o</a> fiumba                                 
+            </pre>                                
+</body>
+</html>
